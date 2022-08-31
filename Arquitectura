@@ -1,1 +1,23 @@
+1. La opción de Docker Build es un comando de la plataforma Docker 
+que se utiliza para la construcción de imágenes desatendidas. 
+En otras palabras, aquella que se encarga de crear imágenes de 
+Docker partiendo de un «contexto» y de un archivo de Dockerfile.
 
+2. El comando Docker Run se utiliza para cumplir la función de 
+ejecutar procesos en contenedores aislados
+
+3. docker start : pone en funcionamiento un contenedor que esté parado.
+ Es decir, cuando has creado un contenedor con el comando anterior ( docker create ) 
+ puedes ejecutarlo con docker start
+ 
+ 4. docker rmi Sirve para eliminar imágenes. Con este comando elimina todas las imágenes. Con este comando fuerza ha eliminar todas las imágenes.
+
+ 5. Docker rm es un comando que permite la eliminación de contenedores, imágenes, volúmenes y redes de Docker que estén pendientes. Este comando es muy importante para el uso de Docker, una plataforma de software para crear apps.
+
+ 6. El comando de detención de Docker stop detiene el contenedor con gracia, esa es la diferencia entre los comandos de detención y de detención. Ejecute el siguiente comando para ver si el contenedor se mató o no.
+
+ 7. Docker network rm Descripción. Elimina una o más redes por nombre o identificador. Para eliminar una red, primero debe desconectar todos los contenedores conectados
+
+ 8.  Docker images es una plantilla de solo lectura que define su contenedor. La imagen contiene el código que se ejecutará, incluida cualquier definición para cualquier biblioteca o dependencia que el código necesite. Un contenedor de Docker es una imagen de Docker instanciada (en ejecución).
+
+ 9. docker network ls enumera todas las redes que conoce el daemon del motor. Esto incluye las redes que se extienden a través de múltiples hosts en un clúster.
